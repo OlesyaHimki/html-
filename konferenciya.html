@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title><strong>Отправка заявки на конференцию</strong></title>
+</head>
+<body>
+	<h1>Отправка заявки на конференцию</h1>
+	<h2>Основные данные</h2>
+	<p><b>*Фамилия,имя,отчество:</b></p>
+	<input type="text" size="40" required>
+	<p><b>Дата рождения:</b></p>
+	<input type="text" placeholder="дд.мм.гггг" required>
+	<p><b>Пол:</b></p>
+	<input type="radio" name="pol" value="мужской"> мужской
+	<input type="radio" name="pol" value="женский"> женский
+	<h1>Данные для создания личного кабинета</h1>
+	<p><b>*Адрес электронной почты:</b></p>
+	<input type="text" size="40" required="Заполните все поля">
+	<p><b>*Пароль для создания личного кабинета:</b></p>
+	<input type="text" size="40" required="Заполните все поля">
+	<p><b>Подтверждение пароля:</b></p>
+	<input type="text" size="40">
+	<h1>Материалы для конференции</h1>
+	<p><b>*Тема доклада:</b></p>
+	<input type="text" size="40" required="Заполните все поля">
+	<p><b>*Тезисы доклада (не более 1000 символов):</b></p>
+	<p><textarea required="1000" rows="10" cols="40" name="text" required="Заполните все поля"></textarea></p>
+	<h1>Файл презентации:</h1>
+	<input type="file">
+	<h1>Дополнительные опции</h1>
+	<input type="checkbox" name="ansver" value="a1">Проживание в отеле<Br>
+	<input type="checkbox" name="ansver"value="a2">Завтрак<Br>
+	<input type="checkbox" name="ansver"value="a3">Обед<Br>
+	<input type="checkbox" name="ansver"value="a4">Ужин<Br>
+	<hr>
+	<p><input type="button" value="Отправить" /></p>
+	<p>*Поля, отмеченные звёздочкой, являются обязательными для заполнения</p>
+</body>
+</html>
